@@ -1,0 +1,305 @@
+/**
+Theme Name: Truvik
+Theme URI: https://facebook.com/rubel.fe.me/
+Author: Rubel Mahmud
+Author URI: https://facebook.com/rubel.ft.me/
+Description: Introducing Truvik, the premium WordPress theme designed to empower agencies of all kinds with a stunning online presence. Whether you're a creative agency, digital marketing firm, web design studio, or any other agency type, Truvik is here to elevate your brand and showcase your work like never before.
+Version: 1.1
+Requires at least: 5.3
+Tested up to: 6.3
+Requires PHP: 5.3
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: truvik
+Domain Path: /lang
+*/
+.custom-link {
+    color: var(--base-white);
+}
+
+.page-title-heading h2 {
+    text-align: center !important;
+}
+
+.truvik-radius {
+    border-radius: 15px !important;
+}
+
+.truvik-radius-sm {
+    border-radius: 10px !important;
+}
+
+.flow-hidden {
+    overflow: hidden !important;
+}
+
+.logo-width {
+    width: 200px !important;
+}
+
+li.current_page_item>a {
+    color: var(--base-skin) !important;
+}
+
+.copyright p {
+    margin: 0 !important;
+}
+
+/* header top social */
+.header-top-social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    border: 1px solid var(--base-white);
+    border-radius: 4px;
+    /* background-color: var(--base-skin); */
+}
+
+.header-top-social:hover {
+    border-color: var(--base-skin);
+    background-color: var(--base-skin);
+    color: var(--base-white) !important;
+}
+
+.header-top-social:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* single page next and previous post style */
+
+.featured-imagebox-prev-next .featured-thumbnail {
+    height: 70px;
+}
+
+.featured-imagebox .featured-thumbnail img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* footer area privacy */
+
+.privacy-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.privacy-link ul li {
+    width: auto !important;
+}
+
+
+
+.privacy-link ul a {
+    display: inline-flex;
+    padding: 10px 5px;
+    color: var(--base-white);
+}
+
+.privacy-link ul a:hover {
+    color: var(--base-skin);
+}
+
+@media(min-width: 768px) {
+    .privacy-link ul {
+        width: 80%;
+    }
+}
+
+@media(min-width: 992px) {
+    .privacy-link ul {
+        width: 70%;
+    }
+}
+
+@media(min-width: 1200px) {
+    .privacy-link ul {
+        width: 60%;
+    }
+}
+
+
+
+.assessment-form {
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    margin: 50px auto;
+    background-color: #dfe6e9;
+}
+
+@media(min-width: 992px) {
+    .assessment-form {
+        max-width: 70%;
+        padding: 50px;
+        box-shadow: 0 0 5px 1px #a6a6a6b5;
+    }
+}
+
+@media(min-width: 992px) {
+    .assessment-form {
+        padding: 50px 100px;
+    }
+}
+
+.assessment-form input,
+.assessment-form select,
+.assessment-form textarea {
+    border-color: #dee2e6 !important;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.assessment-form input:focus,
+.assessment-form select:focus,
+.assessment-form textarea:focus {
+    border-color: var(--base-skin) !important;
+}
+
+/* upload resume button */
+.upload-resume {
+    position: relative;
+    border: 1px solid #b2bec3;
+}
+
+.upload-parent {
+    position: absolute;
+    display: flex;
+    padding: 15px;
+    background: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+
+.upload-button {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    top: calc(50% - 17px);
+    left: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #b2bec3;
+    color: #4f5459;
+    font-size: 12px;
+    border-radius: 7px;
+}
+
+.assessment-form input[type="file"] {
+    display: inline-flex !important;
+    width: 100%;
+    margin: 0;
+    padding: 25px 25px 25px 78px;
+    min-width: 350px;
+    border: 1px solid #dee2e6;
+}
+
+.assessment-form [class*="col-"] {
+    margin-bottom: 25px;
+}
+
+.assessment-form input[type="submit"] {
+    background: var(--base-skin);
+}
+
+
+
+
+/* Widget Style */
+#wp-calendar {
+    width: 100%;
+}
+
+
+.sidebar-right ul li a {
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--base-bodyfont-color);
+    padding-left: 25px;
+}
+
+.sidebar-right ul li a::before {
+    content: "\e818";
+    font-family: "fontello";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: inherit;
+    font-weight: 500;
+}
+
+.sidebar-right ul li a:hover {
+    color: var(--base-skin);
+}
+
+#searchsubmit {
+    margin-top: 10px;
+    background-color: var(--base-skin);
+    color: var(--base-white);
+}
+
+.sidebar .widget.widget-search .search-form {
+    display: flex !important;
+    align-items: center;
+    overflow: hidden !important;
+}
+
+.sidebar .widget.widget-search .input-text {
+    padding: 15px;
+    height: 50px !important;
+}
+
+.sidebar .widget.widget-search .search-form button[type="submit"] {
+    display: inline-flex;
+    height: 100%;
+    background-color: var(--base-skin);
+    padding: 0 !important;
+    width: 50px;
+    min-width: 50px !important;
+    height: 50px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-link {
+    padding-left: 0 !important;
+}
+
+.trending-link::before {
+    display: none !important;
+}
+
+.mobile-quote-show {
+    margin-right: 70px;
+}
+
+.mobile-quote-show .header_btn {
+    display: block !important;
+}
+
+@media(min-width: 1200px) {
+    .mobile-quote-show {
+        display: none !important;
+    }
+
+    .main-header-custom-space {
+        padding-right: 60px !important;
+        padding-left: 60px !important;
+    }
+}

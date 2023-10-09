@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticone293.ttf?f8638b9cfdaf466de8e8e2c7d9fa9cd0") format("truetype"),
+url("../fonts/flaticone293.woff?f8638b9cfdaf466de8e8e2c7d9fa9cd0") format("woff"),
+url("../fonts/flaticone293.woff2?f8638b9cfdaf466de8e8e2c7d9fa9cd0") format("woff2"),
+url("../fonts/flaticone293.eot?f8638b9cfdaf466de8e8e2c7d9fa9cd0#iefix") format("embedded-opentype"),
+url("../fonts/flaticone293.svg?f8638b9cfdaf466de8e8e2c7d9fa9cd0#flaticon_truvik") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-call:before {
+    content: "\f101";
+}
+.flaticon-clock:before {
+    content: "\f102";
+}
+.flaticon-coronavirus:before {
+    content: "\f103";
+}
+.flaticon-customer-service:before {
+    content: "\f104";
+}
+.flaticon-debit-card:before {
+    content: "\f105";
+}
+.flaticon-email-1:before {
+    content: "\f106";
+}
+.flaticon-email:before {
+    content: "\f107";
+}
+.flaticon-essay:before {
+    content: "\f108";
+}
+.flaticon-graduated:before {
+    content: "\f109";
+}
+.flaticon-home:before {
+    content: "\f10a";
+}
+.flaticon-instructor:before {
+    content: "\f10b";
+}
+.flaticon-location:before {
+    content: "\f10c";
+}
+.flaticon-office-building:before {
+    content: "\f10d";
+}
+.flaticon-passport-1:before {
+    content: "\f10e";
+}
+.flaticon-passport-2:before {
+    content: "\f10f";
+}
+.flaticon-passport-3:before {
+    content: "\f110";
+}
+.flaticon-passport-4:before {
+    content: "\f111";
+}
+.flaticon-passport-5:before {
+    content: "\f112";
+}
+.flaticon-passport-6:before {
+    content: "\f113";
+}
+.flaticon-passport-7:before {
+    content: "\f114";
+}
+.flaticon-passport-8:before {
+    content: "\f115";
+}
+.flaticon-passport:before {
+    content: "\f116";
+}
+.flaticon-phone-call:before {
+    content: "\f117";
+}
+.flaticon-process:before {
+    content: "\f118";
+}
+.flaticon-quote-1:before {
+    content: "\f119";
+}
+.flaticon-quote:before {
+    content: "\f11a";
+}
+.flaticon-rating:before {
+    content: "\f11b";
+}
+.flaticon-right-arrow:before {
+    content: "\f11c";
+}
+.flaticon-share:before {
+    content: "\f11d";
+}
+.flaticon-straight-quotes:before {
+    content: "\f11e";
+}
+.flaticon-teamwork:before {
+    content: "\f11f";
+}
+.flaticon-travel-agency:before {
+    content: "\f120";
+}
+.flaticon-trophy:before {
+    content: "\f121";
+}
+.flaticon-visa-1:before {
+    content: "\f122";
+}
+.flaticon-visa:before {
+    content: "\f123";
+}

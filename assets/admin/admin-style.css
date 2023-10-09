@@ -1,0 +1,123 @@
+ .noUi-base {
+     background: var(--base-skin);
+ }
+
+ #adminmenu .wp-menu-image img {
+     width: 20px;
+ }
+
+ .cb-enable.label.selected {
+     background: var(--base-skin) !important;
+     border: none;
+     outline: 0 !important;
+ }
+
+ .redux-container-multi_text a.redux-multi-text-remove.deletion:hover {
+     background: var(--base-skin) !important;
+ }
+
+ .wp-core-ui .button-primary {
+     background: var(--base-skin) !important;
+     border-color: var(--base-skin) !important;
+ }
+
+ .redux-container .redux-sidebar .redux-group-menu li.active a,
+ .redux-container .redux-sidebar .redux-group-menu li a:hover,
+ .redux-container .redux-sidebar .redux-group-menu li.activeChild.hasSubSections a {
+     background-color: var(--base-skin) !important;
+ }
+
+ input[type="checkbox"]:focus,
+ input[type="color"]:focus,
+ input[type="date"]:focus,
+ input[type="datetime-local"]:focus,
+ input[type="datetime"]:focus,
+ input[type="email"]:focus,
+ input[type="month"]:focus,
+ input[type="number"]:focus,
+ input[type="password"]:focus,
+ input[type="radio"]:focus,
+ input[type="search"]:focus,
+ input[type="tel"]:focus,
+ input[type="text"]:focus,
+ input[type="time"]:focus,
+ input[type="url"]:focus,
+ input[type="week"]:focus,
+ select:focus,
+ textarea:focus {
+     border-color: var(--base-skin);
+     box-shadow: 0 0 0 1px var(--base-skin);
+ }
+
+ .input-id-select {
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     min-width: 50px;
+     height: 25px;
+     font-weight: 600;
+     font-size: 15px;
+     color: var(--base-white);
+     border-radius: 4px;
+     user-select: all;
+     background: var(--base-skin);
+ }
+
+ body.elementor-editor-active #elementor-switch-mode-button {
+     color: var(--base-white);
+ }
+
+ div.wp-menu-image.dashicons-groups::before,
+ div.wp-menu-image.dashicons-networking::before,
+ div.wp-menu-image.dashicons-nametag::before,
+ div.wp-menu-image.dashicons-superhero::before,
+ div.wp-menu-image.dashicons-clipboard::before {
+     color: var(--base-skin) !important;
+ }
+
+ .truvik-assessment-status {
+     text-transform: capitalize !important;
+ }
+
+ .truvik-button-danger,
+ .truvik-button {
+     background-color: var(--base-skin) !important;
+     border-color: var(--base-skin) !important;
+     color: var(--base-white) !important;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+
+ .truvik-button-danger {
+     background-color: #b71540 !important;
+     margin-right: 15px !important;
+     border: none !important;
+ }
+
+ .truvik-button:focus {
+     box-shadow: 0 0 0 1px var(--base-skin) !important;
+ }
+
+ .pl-10 {
+     padding-left: 10px !important;
+ }
+
+ .px-15 {
+     padding-left: 20px !important;
+     padding-right: 20px !important;
+ }
+
+ .button-width {
+     min-width: 110px !important;
+ }
+
+ .set-status-rejected,
+ .set-status-approved {
+     display: none;
+ }
+
+ .export-button-position {
+     position: absolute;
+     top: 0;
+     left: 650px;
+ }
