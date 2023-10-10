@@ -1,10 +1,9 @@
 <?php
 
 namespace Truvik\Admin;
-/**
- * directories access denied 
- */
-defined('ABSPATH') OR exit('No direct script access allowed');
+
+// directly acces denied.
+defined('ABSPATH') || exit('You have no permission');
 
 class Ajax_Assment_Data_Handler{
     // set singletone instance
@@ -285,4 +284,5 @@ class Ajax_Assment_Data_Handler{
     }
 
 }
+// execute the ajax handler class
 Ajax_Assment_Data_Handler::init();
