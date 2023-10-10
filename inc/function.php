@@ -37,6 +37,12 @@ if( ! function_exists('_get_assessment_count') ){
     }
 }
 
+/**
+ * get data from database
+ *
+ * @param [type] $query
+ * @return response
+ */
 if( ! function_exists('_get_application_result') ){
     function _get_application_result( $query ){
         $results = $query;
