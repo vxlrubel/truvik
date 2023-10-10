@@ -138,8 +138,10 @@
                     url: truvik.ajaxurl,
                     data: args,
                     success: function (response) {
+                        table.empty();
                         table.html(response.data);
                         _self.val(text);
+
                         // approve data from assessment form
                         $('.assessment-data-approve').on('click', function (e) {
                             e.preventDefault();
@@ -291,7 +293,7 @@
                     data: sataSet,
                     success: function (response) {
                         $('.truvik-custom-table-list').empty();
-                        $('.truvik-custom-table-list').html(response.data);
+                        $('.truvik-custom-table-list').append(response.data);
                         _self.val(self_text);
                     },
                     beforeSend: function () {

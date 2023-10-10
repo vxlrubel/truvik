@@ -222,6 +222,18 @@ defined('ABSPATH') || exit; ?>
                             </div>
                         </div>
                     </div>
+                    <div class="row px-2">
+                        <div class="col-3 border">
+                            <div class="text-capitalize py-2">
+                                Submit Date
+                            </div>
+                        </div>
+                        <div class="col-9 border">
+                            <div class="text-capitalize py-2">
+                                <?php echo $row->date; ?>
+                            </div>
+                        </div>
+                    </div>
 
                     
                     <div class="row px-2">
@@ -230,13 +242,12 @@ defined('ABSPATH') || exit; ?>
                         </div>
                         <div class="col-9 border">
                             <div class="text-capitalize py-2">
-                                <a href="<?php echo esc_url($resume_url); ?>" download> Download </a>
-                                <span> / </span>
-                                <a href="<?php echo esc_url($resume_url); ?>"> View</a>
+                                <a href="<?php echo esc_url($resume_url); ?>" target="_blank"> View Resume</a>
                             </div>
                         </div>
                     </div>
-                
+                    
+                    
 
                 </div>
                 <div class="modal-footer">
